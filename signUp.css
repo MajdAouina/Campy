@@ -8,7 +8,7 @@ body { background-image:url('https://hips.hearstapps.com/hmg-prod/images/where-t
     .card{box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
         0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
        width: 40vh;
-       height: 50vh;
+       height: 40vh;
       
        text-align: center;
        display: grid;
@@ -26,3 +26,104 @@ body { background-image:url('https://hips.hearstapps.com/hmg-prod/images/where-t
 /*    
   .card:hover{ background-color: rgb(255, 255, 255);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);} */
+
+
+#btn{
+display: inline-block;
+outline: 0;
+border: none;
+cursor: pointer;
+font-weight: 600;
+border-radius: 4px;
+font-size: 13px;
+height: 30px;
+background-color: #0000000d;
+color: #0e0e10;
+padding: 0 20px;}
+#btn:hover {
+    background-color: #0000001a;
+}
+.inp{
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 20px;}
+    .inp:hover {
+        border-color: #ccc;
+    }
+   .inp :focus{
+        border-color: #9147ff;
+        background: #fff;
+    }
+
+
+    #email{
+        font-size: 14px;
+        border-radius: 6px;
+        line-height: 1.5;
+        padding: 5px 10px;
+        transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+        border: 2px solid #dee1e2;
+        color: rgb(14, 14, 16);
+        background: #dee1e2;
+        display: block;
+        height: 20px;}
+        .inp:hover {
+            border-color: #ccc;
+        }
+       #email :focus{
+            border-color: #9147ff;
+            background: #fff;
+        }
+
+
+        
+    #pass{
+        font-size: 14px;
+        border-radius: 6px;
+        line-height: 1.5;
+        padding: 5px 10px;
+        transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+        border: 2px solid #dee1e2;
+        color: rgb(14, 14, 16);
+        background: #dee1e2;
+        display: block;
+        height: 20px;}
+        .inp:hover {
+            border-color: #ccc;
+        }
+       #pass:focus{
+            border-color: #9147ff;
+            background: #fff;
+        }
+
+        
+    #username{
+        font-size: 14px;
+        border-radius: 6px;
+        line-height: 1.5;
+        padding: 5px 10px;
+        transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+        border: 2px solid #dee1e2;
+        color: rgb(14, 14, 16);
+        background: #dee1e2;
+        display: block;
+        height: 20px;}
+        .inp:hover {
+            border-color: #ccc;
+        }
+       #username:focus{
+            border-color: #9147ff;
+            background: #fff;
+        }
+  #title {
+        height: 280px;
+        width: 600px ;
+    }
+    

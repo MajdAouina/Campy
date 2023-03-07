@@ -21,3 +21,25 @@ console.log("user add")
 }
 
 
+console.log('nam');
+function login(){
+    var email1=document.getElementsByClassName('email').value;
+    var pass1 =document.getElementsByClassName('pass').value;
+
+    var email=localStorage.getItem("email");
+    var pass=localStorage.getItem("pass");
+    console.log(email,pass)
+
+
+    if(email1===email &&  pass1 ===pass){
+        // return "welcome back " + this.Account 
+       alert("welcome to campy")
+        window.location.href="home.html"
+
+    }
+
+    else {
+
+    alert("your email or password is incorrect")
+    }
+}

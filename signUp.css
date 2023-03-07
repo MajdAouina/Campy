@@ -1,34 +1,10 @@
-
-<<<<<<< HEAD
 body { background-image:url('https://hips.hearstapps.com/hmg-prod/images/where-to-see-northern-lights-1547831905.gif?resize=1200:*'); 
-  height: 100vh;
-  background-repeat: no-repeat;
-  width: 100vh;
-  background-size: cover;
-  background-position: center ;}
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100vh;
+    background-size: cover;
+    background-position: center ;}
 
-.card{box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
-      0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
-     width: 40vh;
-     height: 40vh;
-    
-     text-align: center;
-     display: grid;
-     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    margin-left: 20%;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-top: 5%;
-    background-color: rgb(255, 255, 255);
-    display :flex ;
-    flex-wrap: wrap;
-position: relative;
-top: 30%
- }
-/*    
-.card:hover{ background-color: rgb(255, 255, 255);
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);} */
-=======
     .card{box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
         0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
        width: 40vh;
@@ -50,7 +26,6 @@ top: 30%
 /*    
   .card:hover{ background-color: rgb(255, 255, 255);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);} */
->>>>>>> ea14b16143e7e5e122c0f102e2b7180d3d4f5128
 
 
 #btn{
@@ -66,93 +41,6 @@ background-color: #0000000d;
 color: #0e0e10;
 padding: 0 20px;}
 #btn:hover {
-<<<<<<< HEAD
-  background-color: #0000001a;
-}
-.inp{
-  font-size: 14px;
-  border-radius: 6px;
-  line-height: 1.5;
-  padding: 5px 10px;
-  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
-  border: 2px solid #dee1e2;
-  color: rgb(14, 14, 16);
-  background: #dee1e2;
-  display: block;
-  height: 20px;}
-.inp:hover {
-      border-color: #ccc;
-  }
-.inp :focus{
-      border-color: #9147ff;
-      background: #fff;
-  }
-
-#email{
-      font-size: 14px;
-      border-radius: 6px;
-      line-height: 1.5;
-      padding: 5px 10px;
-      transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
-      border: 2px solid #dee1e2;
-      color: rgb(14, 14, 16);
-      background: #dee1e2;
-      display: block;
-      height: 20px;}
-inp:hover {
-          border-color: #ccc;
-      }
-#email :focus{
-          border-color: #9147ff;
-          background: #fff;
-      }
-
-
-      
-#pass{
-      font-size: 14px;
-      border-radius: 6px;
-      line-height: 1.5;
-      padding: 5px 10px;
-      transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
-      border: 2px solid #dee1e2;
-      color: rgb(14, 14, 16);
-      background: #dee1e2;
-      display: block;
-      height: 20px;}
-.inp:hover {
-          border-color: #ccc;
-      }
-#pass:focus{
-          border-color: #9147ff;
-          background: #fff;
-      }
-
-      
-#username{
-      font-size: 14px;
-      border-radius: 6px;
-      line-height: 1.5;
-      padding: 5px 10px;
-      transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
-      border: 2px solid #dee1e2;
-      color: rgb(14, 14, 16);
-      background: #dee1e2;
-      display: block;
-      height: 20px;}
-.inp:hover {
-          border-color: #ccc;
-      }
-#username:focus{
-          border-color: #9147ff;
-          background: #fff;
-      }
-#title {
-      height: 280px;
-      width: 600px ;
-  }
-  
-=======
     background-color: #0000001a;
 }
 .inp{
@@ -238,5 +126,3 @@ inp:hover {
         height: 280px;
         width: 600px ;
     }
-    
->>>>>>> ea14b16143e7e5e122c0f102e2b7180d3d4f5128

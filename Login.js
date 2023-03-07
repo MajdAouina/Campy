@@ -1,30 +1,3 @@
-<<<<<<< HEAD
-//objects of array that takes users and passwords 
-//function that checks the input of the of the password with the arrays
-
-function checkData(){
-
-}
-function checkData(){
-    var enterEmail = document.getElementById('email').value
-var enterPwd  = document.getElementById('pwd').value
-
-    var enterEmail=localStorage.getItem('userEmail')
-    var enterEmail=localStorage.getItem('userPwd')
-    if(enterEmail == getEmail){
-        if(enterPwd == getPwd){
-            alert("login successful")
-        }
-        else{
-            alert("wrong password")
-        }
-    }
-    else{
-        alert("Invalid datails")
-    }
-
-}
-=======
 console.log('nam')
 // sign up function 
 function signup(){
@@ -48,4 +21,25 @@ console.log("user add")
 }
 
 
->>>>>>> ea14b16143e7e5e122c0f102e2b7180d3d4f5128
+console.log('nam');
+function login(){
+    var email1=document.getElementsByClassName('email').value;
+    var pass1 =document.getElementsByClassName('pass').value;
+
+    var email=localStorage.getItem("email");
+    var pass=localStorage.getItem("pass");
+    console.log(email,pass)
+
+
+    if(email1===email &&  pass1 ===pass){
+        // return "welcome back " + this.Account 
+       alert("welcome to campy")
+        window.location.href="home.html"
+
+    }
+
+    else {
+
+    alert("your email or password is incorrect")
+    }
+}

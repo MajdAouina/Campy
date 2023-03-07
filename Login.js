@@ -21,19 +21,28 @@ console.log("user add")
 }
 
 function login(){
-    var email1=document.getElementsByClassName('email').value;
-    var pass1 =document.getElementsByClassName('pass').value;
+    var email1=document.getElementsByClassName('inp').value;
+    var pass1 =document.getElementsByClassName('inp').value;
+
+    var user ={
+        email:email,
+        username:username,
+        pass:pass
+    }
     
+var json =JSON.stringify(user);
+localStorage.getItem(username,json )
+
     var email=localStorage.getItem("email");
     var pass=localStorage.getItem("pass");
     console.log(email,pass)
 
 
-    if(email1===email &&  pass1 ===pass){
+    if(email1===user.email &&  pass1 ===user.pass){
         // return "welcome back " + this.Account 
        alert("welcome to campy")  
         window.location.href="home.html"
-   
+    
     }
 
     else {

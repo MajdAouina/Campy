@@ -7,13 +7,13 @@ body { background-image:url('https://hips.hearstapps.com/hmg-prod/images/where-t
 }
 .card{box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
         0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
-       width: 15vh;
-       height: 25vh;
+       width: 20vh;
+       height: 30vh;
 
        text-align: center;
        display: grid;
        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      margin-left: 10%;
+      margin-left: 20%;
       padding-left: 10%;
       padding-right: 20%;
       margin-top: 5%;
@@ -22,6 +22,7 @@ body { background-image:url('https://hips.hearstapps.com/hmg-prod/images/where-t
       flex-wrap: wrap;
   position: relative;
   top: 40%;
+<<<<<<< HEAD
   
    }
 #btnlogin{
@@ -44,6 +45,11 @@ body { background-image:url('https://hips.hearstapps.com/hmg-prod/images/where-t
        background-color: #d9d7cd;
    }
 #btnlogin1{
+=======
+ 
+   }
+   .btnlogin{
+>>>>>>> ea14b16143e7e5e122c0f102e2b7180d3d4f5128
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -58,6 +64,7 @@ body { background-image:url('https://hips.hearstapps.com/hmg-prod/images/where-t
     transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
     padding: 0 18px;
  }
+<<<<<<< HEAD
  #btnlogin1:hover {
         color: #241c15;
         background-color: #d9d7cd;
@@ -85,3 +92,32 @@ body { background-image:url('https://hips.hearstapps.com/hmg-prod/images/where-t
     height: 280px;
     width: 600px ;
 }
+=======
+ .btnlogin:hover {
+        color: #241c15;
+        background-color: #d9d7cd;
+    }
+ .inp{
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 20px;
+ } 
+ .inp:hover {
+        border-color: #ccc;
+    }
+ .inp:focus{
+        border-color: #9147ff;
+        background: #fff;
+    }
+    #title {
+     height: 280px;
+     width: 600px ;
+ }
+>>>>>>> ea14b16143e7e5e122c0f102e2b7180d3d4f5128

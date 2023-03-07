@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "icon" href = 
+    "./26128249-camping-dans-la-forêt-avec-tente-et-feu-de-camp.webp"
+            type = "image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +11,42 @@
     <link rel="stylesheet" href="Login.css">
 </head>
 <body>
+    <!-- this is home page (login) ,if not have account click sign up 
+     we have an input that tap  adress mail and password  just wanna click in button login check your mail and psw if exist in object or not  -->
+    <div>
+   <img id="title" src="./My_project-1.png" >
+
     <div class="card">
+
         <div>
             <div style="text-align: center" >
             <div class="container">
-            
+                <h1></h1>
              <h3>Adress mail : </h3>
-             <input id="inp" placeholder="your adresse mail  ">
-             
+             <input id="email" placeholder="your adresse mail  ">
              <h3>Password  </h3>
-             <input type="password" id="inp" placeholder="your password  ">
              
+             <input type="password" id="pwd" placeholder="your password  ">
             </div> 
             </div>
             <div style="text-align: center">
-            <button > sign up</button>
-            <button> connect</button>
+           
+                <a href =" C:\Users\majda\Desktop\paire project\Campy\signUp.html">
+                    <button id="btnlogin"> Sign up</button></a>
+            <button id="btnlogin1"> Log in</button>
         </div>
         </div>
+    </div>
       <script src="Login.js"></script>
+      
 </body>
 </html>
+
+
+
+<!--var loginButton = document.querySelector('.btnlogin:last-of-type');
+
+// Add an event listener to the button
+loginButton.addEventListener('click', () => {
+  alert('Log in button clicked!');
+});-->
